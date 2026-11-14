@@ -91,7 +91,7 @@ variable "app_desired_capacity" {
   default = 2
 }
 
-# ── DB tier ──────────────────────────────────────────────────────────────────
+# ── Database tier ──────────────────────────────────────────────────────────────────
 variable "db_instance_class" {
   description = "RDS instance class"
   type        = string
